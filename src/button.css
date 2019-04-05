@@ -1,0 +1,29 @@
+a,
+button,
+input {
+  cursor: pointer;
+}
+
+.mail-container button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border: none;
+  transform: translateY(-50%);
+}
+
+.mail-container button:hover {
+  border: 2px solid var(--green_border);
+  transition: 0.5s;
+}
+
+.mail-container button:focus {
+  outline: none;
+  box-sizing: border-box;
+  background: var(--green_border);
+  transition: 0.5s;
+}

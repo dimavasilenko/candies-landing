@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy Bold"),
+    local("Gilroy-Bold"),
+    url("./fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+span {
+  font-weight: bold;
+  font-family: var(--header-font);
+}
+
+p {
+  font-weight: normal;
+  font-family: var(--main-font);
+}

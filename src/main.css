@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  width: 1440px;
+}
+
+main {
+  display: flex;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 158px 182px 77px 155px;
+}
+
+/* Left section of main */
+.candy-title {
+  display: flex;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-top: 158px;
+}
+
+.candy-logo {
+  margin-left: -100px;
+}
+
+.candy-left {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 470px;
+  margin-top: -28px;
+  padding-right: 148px;
+}
+
+h1 {
+  font-family: var(--header-font);
+  font-size: 48px;
+  margin-right: 150px;
+  color: var(--font_color);
+  margin-top: 0;
+}
+
+.info {
+  width: 437px;
+  margin-top: 17px;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--copyright_color);
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--light_background);
+  width: 100%;
+  margin-left: 0;
+}
+
+/* Form for mail */
+
+.mail-form {
+  margin-top: 30px;
+}
+
+.mail-form label {
+  font-family: var(--header-font);
+  font-size: 18px;
+  line-height: normal;
+  color: var(--font_color);
+  display: block;
+}
+
+.mail-container {
+  position: relative;
+  max-width: 470px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.mail-container input {
+  background: var(--light_background);
+  border-radius: 30px;
+  height: 60px;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  padding-left: 30px;
+}
+
+.mail-container input:hover {
+  background: var(--hover_background);
+  transition: 0.5s;
+}
+
+.mail-container input:focus:valid {
+  border: 2px solid var(--green_border);
+  outline: none;
+  transition: 0.5s;
+  background-color: white;
+}
+
+.mail-container input:active {
+  border: 2px solid white;
+  outline: none;
+  transition: 0.5s;
+  background-color: white;
+}
+
+.mail-container input:focus:invalid {
+  background: var(--error_background);
+  border: 2px solid var(--error_border);
+  outline: none;
+  transition: 0.5s;
+
+}
+
+.mail-container input::placeholder {
+  color: var(--placeholder_color);
+  font-weight: 400;
+  font-size: 14px;
+  font-family: var(--main-font);
+}
+
+/* Right section of main */
+
+.candy-right {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 470px;
+  margin-top: 58px;
+}
+
+.list-icon {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 1 1 300px;
+}
+
+.list-icon a {
+  background-color: var(--light_background);
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+}
+
+.list-icon a:hover {
+  background-color: var(--hover_background);
+  transition: 0.3s;
+}
+
+.list-icon a:focus {
+  border: 2px solid var(--green_border);
+  transition: 0.1s;
+  box-sizing: border-box;
+}
+
+.list-framework {
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+  max-width: 470px;
+}
+
+.span-js {
+  font-family: var(--main-font);
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: var(--violet_color);
+}
+
+.li-framework {
+  font-family: var(--header-font);
+  font-size: 18px;
+  color: var(--font_color);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.dots {
+  display: flex;
+  justify-content: space-between;
+}
+
+.css-frame {
+  height: 3em;
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  color: var(--copyright_color);
+}
+
+.link {
+  margin-top: -60px;
+  margin-left: 370px;
+  background: white;
+  border: 2px solid var(--hover_background);
+  box-sizing: border-box;
+  border-radius: 22px;
+  font-family: Gilroy, serif;
+  font-size: 10px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: var(--font_color);
+  padding: 9px 16px 8px 17px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.link:hover {
+  border-color: var(--green_border);
+  color: var(--violet_color);
+  transition: 0.5s;
+}
+
+.all-candy {
+  background: var(--violet_color);
+  border-radius: 22px;
+  max-width: 470px;
+  width: 100%;
+  height: 44px;
+  font-family: var(--header-font);
+  font-size: 14px;
+  line-height: normal;
+  text-align: center;
+  color: white;
+  border: none;
+  align-self: center;
+  margin-top: 54px;
+  outline: none;
+}
+
+.all-candy:hover {
+  background-color: var(--hover_violet);
+  transition: 0.5s;
+}
