@@ -6,6 +6,10 @@
   justify-content: space-between;
 }
 
+ul .link-mail {
+  color: var(--green_border);
+}
+
 .footer-list ul {
   padding: 0;
 }
@@ -38,20 +42,21 @@ ul .site-mail {
   color: var(--green_border);
 }
 
-.left-foot,
-.right-foot {
-  width: 50%;
+.right-foot,
+.left-foot {
   display: flex;
   flex-wrap: wrap;
 }
 
 .left-foot {
   justify-content: space-between;
-  margin-right: 160px;
+  margin-right: 50px;
+  width: 100%;
 }
 
 .right-foot {
-  justify-content: space-between;
+  justify-content: center;
+  width: 100%;
 }
 
 .ctrlenter {
@@ -70,7 +75,7 @@ ul .cooperation {
 
 .copyright {
   display: flex;
-  height: 30px;
+  margin-inline-end: -240px;
   width: 500px;
   align-items: center;
   font-family: var(--main-font);
@@ -85,4 +90,16 @@ ul .cooperation {
   font-family: var(--main-font);
   color: var(--copyright_color);
   font-size: 11px;
+}
+
+ul .link-mail {
+  color: var(--green_border);
+}
+
+.problems {
+  margin-inline-end: -210px;
+}
+
+.connection {
+  margin-inline-end: 116px;
 }

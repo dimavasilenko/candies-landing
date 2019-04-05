@@ -26,7 +26,7 @@ main {
 }
 
 .candy-logo {
-  margin-left: -100px;
+  margin-left: -120px;
 }
 
 .candy-left {
@@ -47,7 +47,7 @@ h1 {
 
 .info {
   width: 437px;
-  margin-top: 17px;
+  margin-top: -17px;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: normal;
@@ -242,6 +242,7 @@ hr {
   color: white;
   border: none;
   align-self: center;
+  margin-left: 25px;
   margin-top: 54px;
   outline: none;
 }
@@ -250,3 +251,4 @@ hr {
   background-color: var(--hover_violet);
   transition: 0.5s;
 }
+
