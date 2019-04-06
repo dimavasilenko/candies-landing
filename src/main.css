@@ -114,7 +114,7 @@ hr {
   background-color: white;
 }
 
-.mail-container input:focus:invalid {
+.mail-container input:invalid:not([value=""]) {
   background: var(--error_background);
   border: 2px solid var(--error_border);
   outline: none;

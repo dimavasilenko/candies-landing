@@ -22,7 +22,6 @@ input {
 }
 
 .mail-container button:focus {
-  outline: none;
   box-sizing: border-box;
   background: var(--green_border);
   transition: 0.5s;
