@@ -218,7 +218,7 @@ hr {
   border: 2px solid var(--hover_background);
   box-sizing: border-box;
   border-radius: 22px;
-  font-family: Gilroy, serif;
+  font-family: var(--header-font);
   font-size: 10px;
   line-height: normal;
   text-align: center;
