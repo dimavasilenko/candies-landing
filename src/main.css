@@ -174,8 +174,8 @@ hr {
   display: flex;
   list-style: none;
   flex-direction: column;
-  max-width: 470px;
   margin-inline-start: 14px;
+  width: 480px;
 }
 
 .span-js {
@@ -183,6 +183,7 @@ hr {
   font-size: 10px;
   letter-spacing: 0.1em;
   color: var(--violet_color);
+  font-weight: bold;
 }
 
 .li-framework {
