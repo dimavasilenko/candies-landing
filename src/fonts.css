@@ -3,8 +3,8 @@
 @font-face {
   font-family: "Gilroy";
   src: local("Gilroy Bold"),
-    local("Gilroy-Bold"),
-    url("./fonts/Gilroy-Bold.woff") format("woff");
+  local("Gilroy-Bold"),
+  url("./fonts/Gilroy-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
 }
@@ -13,10 +13,13 @@ h1,
 h2,
 h3,
 h4,
-h5,
-span {
+h5 {
   font-weight: bold;
   font-family: var(--header-font);
+}
+
+span {
+  font-weight: normal;
 }
 
 p {

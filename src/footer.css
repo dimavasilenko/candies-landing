@@ -59,10 +59,11 @@ ul .link-mail {
   width: 100%;
 }
 
-.ctrlenter {
+ul .ctrlenter {
   max-width: 213px;
   width: 100%;
   line-height: 17px;
+  color: white;
 }
 
 ul .cooperation {
@@ -100,3 +101,6 @@ ul .cooperation {
   margin-inline-end: 116px;
 }
 
+ul .question{
+  color: white;
+}

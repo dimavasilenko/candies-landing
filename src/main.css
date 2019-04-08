@@ -17,7 +17,7 @@ main {
 .wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 158px 182px 77px 155px;
+  padding: 119px 202px 77px 155px;
 }
 
 /* Left section of main */
@@ -36,7 +36,7 @@ main {
   display: flex;
   flex-direction: column;
   flex-basis: 470px;
-  margin-top: -28px;
+  margin-top: -98px;
   padding-right: 148px;
 }
 
@@ -70,10 +70,11 @@ hr {
 /* Form for mail */
 
 .mail-form {
+  width: 470px;
   margin-top: 30px;
 }
 
-.mail-form label {
+.header-mail {
   font-family: var(--header-font);
   font-size: 18px;
   line-height: normal;
@@ -138,7 +139,6 @@ hr {
   display: flex;
   flex-direction: column;
   flex-basis: 470px;
-  margin-top: 58px;
 }
 
 .list-icon {
@@ -175,6 +175,7 @@ hr {
   list-style: none;
   flex-direction: column;
   max-width: 470px;
+  margin-inline-start: 14px;
 }
 
 .span-js {
@@ -208,6 +209,8 @@ hr {
 }
 
 .link {
+  width: 76px;
+  height: 28px;
   margin-top: -60px;
   margin-left: 370px;
   background: white;
@@ -220,7 +223,7 @@ hr {
   text-align: center;
   letter-spacing: 0.1em;
   color: var(--font_color);
-  padding: 9px 16px 8px 17px;
+  padding: 6px 16px 8px 26px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -254,4 +257,3 @@ hr {
   background-color: var(--hover_violet);
   transition: 0.5s;
 }
-
