@@ -6,10 +6,6 @@
   justify-content: space-between;
 }
 
-ul .link-mail {
-  color: var(--green_border);
-}
-
 .footer-list ul {
   padding: 0;
 }
@@ -39,6 +35,10 @@ ul .link-mail {
 }
 
 ul .site-mail {
+  color: var(--green_border);
+}
+
+ul .link-mail {
   color: var(--green_border);
 }
 
@@ -92,10 +92,6 @@ ul .cooperation {
   font-size: 11px;
 }
 
-ul .link-mail {
-  color: var(--green_border);
-}
-
 .problems {
   margin-inline-end: -210px;
 }
@@ -103,3 +99,4 @@ ul .link-mail {
 .connection {
   margin-inline-end: 116px;
 }
+
