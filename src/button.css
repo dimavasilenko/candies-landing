@@ -4,25 +4,22 @@ input {
   cursor: pointer;
 }
 
-.mail-container button {
+.button-submit {
   position: absolute;
-  right: 10px;
-  top: 50%;
+  right: 8px;
+  top: 8px;
   border-radius: 50%;
   width: 45px;
   height: 45px;
-  background-color: white;
-  border: none;
-  transform: translateY(-50%);
+  border: 2px solid var(--hover_background);
+  outline: none;
+  background: white url(images/button.svg) no-repeat center;
 }
 
-.mail-container button:hover {
+.button-submit:hover {
   border: 2px solid var(--green_border);
-  transition: 0.5s;
 }
 
-.mail-container button:focus {
-  box-sizing: border-box;
-  background: var(--green_border);
-  transition: 0.5s;
+.button-submit:focus {
+  background: var(--green_border) url(images/button-active.svg) no-repeat center;
 }
