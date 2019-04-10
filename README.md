@@ -1,6 +1,6 @@
 # Candys-landing
 
-### [Demo](https://dimavasilenko.github.io/candys-landing/src/index.html)
+### [Demo](https://dimavasilenko.github.io/candies-landing/src/index.html)
 
 ### Description
 
